@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>CryptoWorld</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="" class="logo">
+                <img src="logo.svg" alt="" class="logo-img">
+                <div>
+                    <span>Cypto</span>
+                    <span>World</span>
+                </div>
+            </a>
+            <ul class="menu-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </header>
+        <ul class="menu-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Info</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+            <section class="start_up">
+                <div>
+                <h1>Start Bitcoin</h1>
+                <h1>Mining</h1>
+                <p>A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers
+                </p>
+                <button class="get-started">Get Started</button>
+                </div>
+                <div class="img-src">
+                    <img src="crypto.jpg" alt="">
+                </div>
+            </section>
+            <script>
+                const dropmenu = document.querySelector('ul.dropdown-menu');
+                const dropbtn = document.querySelector('.dropdown-btn');
+
+                dropbtn.addEventListener('click',()=>{
+                    dropmenu.classlist.toggle('active');
+                    dropbtn.style.fill = 'red'
+                })
+                    
+                
+            </script>
+        </header>
+    </body>
+</html>
